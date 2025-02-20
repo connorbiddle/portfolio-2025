@@ -1,7 +1,35 @@
-@import "_bootstrap-imports";
+@import "bootstrap/_imports.scss";
 @import "_base.scss";
 
+// Navigation
+#nav {
+  position: fixed;
+  right: 1.5rem;
+  z-index: 1;
+  color: #fff;
+  mix-blend-mode: difference;
+  text-align: right;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#nav::after {
+  content: "";
+}
+
+#nav a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+// Hero
 #hero {
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
-  min-height: 40rem;
+  min-height: 50rem;
+  animation: heroBackground 120s infinite linear;
+
+  background: linear-gradient(rgba(9, 6, 15, 0.925), rgba(9, 6, 15, 0.925)),
+    url("https://img.freepik.com/free-vector/abstract-pattern-design_1197-52.jpg?t=st=1739997908~exp=1740001508~hmac=4a9339e5d711279c657c2115c134a0da84b4e8c67650bacfe8fb33a88b82a0bc&w=826");
+  background-size: 500px;
 }

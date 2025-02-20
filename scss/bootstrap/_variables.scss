@@ -1,3 +1,9 @@
+// Font
+:root {
+  --bs-font-sans-serif: "Work Sans", serif;
+  --bs-body-font-size: 1.25rem;
+}
+
 // Font sizes
 $font-size-base: 1.125rem;
 
@@ -9,4 +15,10 @@ $h5-font-size: $font-size-base * 1.25;
 $h6-font-size: $font-size-base;
 
 // Colours
-$dark: #261c31;
+$dark: #19122b;
+
+// Buttons
+$input-btn-border-width: 2px;
+$btn-border-radius: 1px;
+$btn-padding-x: 1.25rem;
+$btn-padding-y: 0.6rem;

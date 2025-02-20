@@ -7,16 +7,42 @@
       name="description"
       content="Work with a talented full-stack web developer based in the West Midlands."
     />
-    <meta name="title" content="" />
+    <meta
+      name="title"
+      content="Connor Biddle | Web Developer Based in the West Midlands"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Connor Biddle | Web Developer Based in the West Midlands</title>
   </head>
   <body>
+    <nav id="nav" class="d-flex flex-column">
+      <a href="/projects" class="py-2">Projects</a>
+      <a href="/about" class="py-2">About</a>
+    </nav>
+
     <section id="hero" class="bg-dark text-white d-flex align-items-center">
       <div class="container">
-        <h1>Web developer based in the West Midlands</h1>
-        <button type="button" class="btn btn-primary">Primary</button>
-        <a class="button button-light">Button Text</a>
+        <h1 class="mb-3">I'm Connor.</h1>
+        <p class="mb-4 pb-2">
+          I'm a full-stack web developer specialising in WordPress and the front
+          end.
+        </p>
+        <div class="d-flex gap-2">
+          <a class="btn btn-light" href="#projects"><span>My Projects</span></a>
+          <a class="btn btn-outline-light"><span>Get in Touch</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h1 class="text-center">See some of my work</h1>
       </div>
     </section>
   </body>
